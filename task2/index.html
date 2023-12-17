@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Never Die</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="device">
+        <div id="control-menu">
+            <button id="default-front">Default front</button>
+            <button id="shiny-front">Shiny front</button>
+            <button id="default-back">Default back</button>
+            <button id="shiny-back">Shiny back</button>
+        </div>
+        <div id="left" class="block">
+            <div id="circle-container">
+                <div id="bigcircle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+
+            <div id="screen">
+                <img id="char" src="" alt="">
+                <img id="background" src="./assets/giphy.gif" alt="">
+            </div>
+        </div>
+        <div id="right" class="block">
+            <select name="char" id="select-char" class="darkgrey">
+            </select>
+
+            <div id="info-tab" class="darkgrey">
+                <div class="row">
+                    <div class="property">
+                        <p>Name</p>
+                        <p id="name">______</p>
+                    </div>
+                    <div class="property">
+                        <p>Type</p>
+                        <p id="type">______</p>
+                    </div>
+       
+                </div>
+
+                <div class="row">
+                    <div class="property">
+                        <p>Height</p>
+                        <p id="height">______</p>
+                    </div>
+                    
+                    <div class="property">
+                        <p>Weight</p>
+                        <p id="weight">______</p>
+                    </div>
+                </div>
+                <div class="property">
+                    <p>Ability</p>
+                    <p id="ability">______</p>
+                </div>
+   
+            </div>
+        </div>
+    </div>
+
+    <script src="./run.js"></script>
+</body>
+</html>
